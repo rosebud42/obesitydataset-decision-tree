@@ -115,7 +115,7 @@ class ObesityApp:
         btn_frame2 = ttk.LabelFrame(self.root, text="5. Model Görselleştirme", padding=10)
         btn_frame2.pack(fill="x", padx=15, pady=10)
 
-        self.btn_cm = ttk.Button(btn_frame2, text="Confusion Matrix Goruntulesini Goster", command=self.show_cm, state="disabled")
+        self.btn_cm = ttk.Button(btn_frame2, text="Confusion Matrix Tablosunu Goster", command=self.show_cm, state="disabled")
         self.btn_cm.pack(fill="x", pady=2)
 
         self.btn_fi = ttk.Button(btn_frame2, text="Feature Importance Tablosunu Goster", command=self.show_fi, state="disabled")
